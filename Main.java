@@ -12,6 +12,9 @@ class Main {
     for (int  i=0; i < substrings.length; i++) {
       
     }
+    int numero = Integer.parseInt(substrings[1]);
+    numero = numero /2;
     leBufferizado.close();
+    System.out.println(numero);
   }
 }
